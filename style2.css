@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+    background-color: lightblue;
+}
+
+.container-satu {
+    width: 800px;
+    margin: 100px auto;
+    background-color: #ba5be6;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+.sidebar-satu, .sidebar-dua {
+    flex: 2;
+    padding: 10px;
+}
+  
+.judul-artikel {
+    flex: 5;
+    padding: 10px;
+  }
+  
+.sidebar-satu ul, .sidebar-dua ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.sidebar-satu ul li, .sidebar-dua ul li {
+    margin-bottom: 10px;
+}
