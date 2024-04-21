@@ -12,14 +12,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Albani Rajata Malik">
+    <meta name="author" content="FIkri Setiawan">
     <meta name="generator" content="Hugo 0.118.2">
     <title>Aplikasi Kantor</title>
-
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
-
-    
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link rel="icon" href="assets/img/favicons/favicon.ico">
 
@@ -104,8 +100,6 @@
       }
     </style>
 
-    
-    <!-- Custom styles for this template -->
     <link href="assets/custom/sign-in.css" rel="stylesheet">
   </head>
   <body class="d-flex align-items-center py-4 bg-body-tertiary">
@@ -164,7 +158,7 @@
 <main class="form-signin w-100 m-auto">
   <form action="cek_login.php" method="post">
     <img class="mb-4" src="assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Lakukan Log In</h1>
+    <h1 class="h3 mb-3 fw-normal text-center">Lakukan Log In</h1>
     <?php if (isset($_SESSION['_flashdata'])) {
       foreach  ($_SESSION['_flashdata'] as $key => $val) {
         echo get_flashdata($key);
@@ -182,7 +176,7 @@
     </div>
 
     <button class="btn btn-primary w-100 py-2" type="submit">Masuk</button>
-    <p class="mt-5 mb-3 text-body-secondary">&copy; 2024</p>
+    <p class="mt-5 mb-3 text-body-secondary text-center">&copy; 2024</p>
   </form>
 </main>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
