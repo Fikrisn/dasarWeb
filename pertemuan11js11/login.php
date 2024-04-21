@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="FIkri Setiawan">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Aplikasi Kantor</title>
+    <title>Kantor Ritech</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link rel="icon" href="assets/img/favicons/favicon.ico">
@@ -157,7 +157,9 @@
     
 <main class="form-signin w-100 m-auto">
   <form action="cek_login.php" method="post">
-    <img class="mb-4" src="assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+      <div class="text-center">
+        <img class="mb-4" src="assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+      </div>
     <h1 class="h3 mb-3 fw-normal text-center">Lakukan Log In</h1>
     <?php if (isset($_SESSION['_flashdata'])) {
       foreach  ($_SESSION['_flashdata'] as $key => $val) {
